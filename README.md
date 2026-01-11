@@ -1,3 +1,4 @@
 Loads SPY data, computes a vol surface, and simulates a market maker. 
-Afterwards, chooses trades at random and simulates a Markov chain to determine if the vol surface
-has attractor neighborhoods. Detailed breakdown below. 
+Afterwards, chooses trades at random and uses dynamical systems to determine if random risk-selected trades
+prefer certain strikes/expiries. 
+risk alone gives . Detailed breakdown available in repo.
