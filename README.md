@@ -1,3 +1,11 @@
+Loads SPY data, computes a vol surface, and simulates a market maker. 
+Afterwards, chooses trades at random and simulates a Markov chain to determine if the vol surface
+has attractor neighborhoods. Detailed breakdown below. 
+
+
+
+
+
 1. one_iv_computation: Loads SPY options data from Yahoo, takes a subset, loads into a dataframe. 
 2. two_vol_surfaces: Uses the pricing data to compute implied volatility; plots surfaces and vol smiles. 
     figs (saved in repo) 
